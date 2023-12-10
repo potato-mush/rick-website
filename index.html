@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick Clothing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><a href="#home">Rick</a></div>
+        <div class="nav-container">
+          <div class="nav-links">
+            <ul>
+              <li><a href="#content">Products</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#info">Info</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <ul class="navbar-right">
+              <li>
+                <button onclick="showLoginModal()" class="login-btn">
+                  Login
+                </button>
+              </li>
+              <li>
+                <button id="signupButton" class="signup-btn">Sign Up</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="home-container">
+          <div class="text-wrapper">
+            <h1>We Find Wears</h1>
+            <h3>your thoughts becomes your clothes</h3>
+          </div>
+        </div>
+      </section>
+      <section id="content">
+        <div class="content-container">
+          <div class="heading">
+            <h3>Our <span>Products</span></h3>
+          </div>
+          <div class="swiper mySwiper">
+            <br />
+            <br />
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/1.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #1</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/2.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #2</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/3.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #3</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/4.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #4</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/5.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #5</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/6.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #6</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/7.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #7</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/8.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #8</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/9.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #9</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <div class="slider-img">
+                    <img src="assets/mens-wear/10.jpg" alt="img-1" />
+                    <div class="overlay">
+                      <button
+                        onclick="showLoginModal()"
+                        class="buy-btn"
+                        id="loginModal"
+                      >
+                        Order Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="detail-box">
+                    <div class="type">
+                      <a href="#">Product #10</a>
+                      <span>Price</span>
+                    </div>
+                    <a href="#" class="price">$24</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-container">
+          <div class="textBlock-container">
+            <h1>"Elevate Your Style: Timeless Elegance, Effortless Comfort"</h1>
+            <span
+              >Experience the epitome of style and comfort with our exceptional
+              polo shirts. Crafted with meticulous attention to detail, our
+              timeless designs exude elegance, making a statement wherever you
+              go. Embrace the perfect blend of sophistication and ease as you
+              embrace life's moments with confidence. Elevate your wardrobe with
+              our polo shirts – where impeccable craftsmanship meets effortless
+              charm.</span
+            >
+          </div>
+          <div class="newsletter-wrapper">
+            <div class="newsletter-form">
+              <h3>Subscribe to our newsletter</h3>
+              <span
+                >Elevate your style with handpicked pieces crafted to make you
+                shine. Don't miss out on exclusive offers and exciting updates!
+                Shop now and step into fashion bliss.
+              </span>
+              <form action="">
+                <input id="inputField" type="email" required />
+                <label for="inputField">Your Email</label>
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="services-list">
+            <div class="services-items">
+              <img src="assets/icons/clothes.png" alt="icon-1" />
+              <span class="item-title">Try Before You Buy</span>
+              <span class="item-text">make purchase decision</span>
+            </div>
+            <div class="services-items">
+              <img src="assets/icons/payment.png" alt="icon-1" />
+              <span class="item-title">Payment</span>
+              <span class="item-text">cash, credit, mobile</span>
+            </div>
+            <div class="services-items">
+              <img src="assets/icons/target.png" alt="icon-1" />
+              <span class="item-title">Customer Support</span>
+              <span class="item-text">return (14-30 days)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="info">
+        <a href="#">
+          <div class="link-wrapper">
+            <div class="icon-link"><i class="fa-solid fa-globe"></i></div>
+            <span>Frequently Asked Questions</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="link-wrapper">
+            <div class="icon-link">
+              <i class="fa-solid fa-handshake-angle"></i>
+            </div>
+            <span>Help Center</span>
+          </div>
+        </a>
+        <a id="openSizeChartBtn">
+          <div class="link-wrapper">
+            <div class="icon-link"><i class="fa-solid fa-shirt"></i></div>
+            <span>Size Guide</span>
+          </div>
+        </a>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-left footer-child">
+          <h3>Rick Clothing Company</h3>
+          <p>123 Main Street, City, Country</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +63 (123) 456-7890</p>
+        </div>
+        <div class="footer-middle footer-child">
+          <h3>Information</h3>
+          <p>Blog</p>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footer-right footer-child">
+          <h4>Connect With Us</h4>
+          <ul class="social-icons">
+            <li>
+              <a href="#" class="facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="linkedin"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">
+        © 2023 Rick Clothing Company. All Rights Reserved.
+      </p>
+    </footer>
+    <div id="back-to-top">&uarr;</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
